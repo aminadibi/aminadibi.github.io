@@ -1,0 +1,14 @@
+baseURL: https://www.adibi.ca
+googleAnalytics: UA/G-123123-12
+languageCode: en-ca
+enableEmoji: yes
+theme: avicenna
+title: amin adibi
+paginate: 10
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: no
+    startLevel: 1
+params:
+  name: amin adibi
