@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #071013;
 }
 
@@ -60,11 +60,11 @@ h2 code {
 }
 
 .secondary_font {
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', serif;
 }
 
 .section-subtitle {
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', serif;
 }
 
 #profile_picture  {
@@ -74,7 +74,10 @@ h2 code {
 }
 
 .about #full_name {
-    font-size: x-large;
+    font-family: 'Petrona', serif;
+    font-size: 36px;
+    font-weight: 700;
+
 }
 
 .about .affiliations #title {
@@ -86,7 +89,7 @@ h2 code {
 }   
 
 .about #email {
-    font-family: 'Ubuntu Mono', serif; 
+    font-family: 'Atkinson Hyperlegible', serif; 
     margin: auto;
 }
 
@@ -140,16 +143,16 @@ h2 code {
 }
 
 .publication .section-1 .publication-date {
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', serif;
 }
 
 .publication .section-1 .publication-name {
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', serif;
 }
 
 
 .publication .section-2 {
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', serif;
     margin-top: -.1%;
     margin-bottom: .5%;
 }
@@ -157,7 +160,7 @@ h2 code {
 
 .publication .section-3 {
     margin-top: -.5%;
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     text-decoration: none;
 }
 
@@ -176,7 +179,7 @@ h2 code {
 }
 
 .publication .separator {
-    margin-left: -1%;
+    margin-left: -0.3%;
 }
 
 .projects .project {
@@ -189,7 +192,7 @@ h2 code {
 }
 
 .projects .project a{
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     padding: .15%;
 }
 .projects .project .section-2 a:hover {
@@ -236,7 +239,7 @@ h2 code {
 }
 
 .tags_navigation .tag {
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', serif;
     padding: .15%;
     background-color: #8C1515;
     color: aliceblue;
@@ -254,7 +257,7 @@ h2 code {
 }
 
 .blog_nav_bar .item {
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', serif;
     padding: .15%;
     background-color: #8C1515;
     color: aliceblue;
@@ -263,7 +266,7 @@ h2 code {
 }
 
 .reading_time {
-    font-family: 'Ubuntu Mono', serif;
+    font-family: 'Atkinson Hyperlegible', serif;
     margin-top: -.5%;
     margin-bottom: 1%;
 }

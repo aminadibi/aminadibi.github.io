@@ -1,5 +1,5 @@
 ---
-title: "predtools"
+title: "predtools: an R package for evaluating prediction models"
 
 date: "2021-03-30"
 
