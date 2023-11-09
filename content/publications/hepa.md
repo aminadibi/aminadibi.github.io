@@ -1,5 +1,5 @@
 ---
-title: "HEPA Air Filters for Preventing Wildfire-related Asthma Complications, a Cost-Effectiveness Study "
+title: "HEPA Air Filters for Preventing Wildfire-related Asthma Complications, a Cost-Effectiveness Study"
 authors:
 - Amin Adibi
 - Prabjit Barn 
