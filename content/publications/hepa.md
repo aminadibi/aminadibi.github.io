@@ -14,6 +14,6 @@ publication: "American Journal of Respiratory and Critical Care Medicine"
 links:
     pdf: https://doi.org/10.1164/rccm.202307-1205OC
     code: https://github.com/resplab/hepa_wildfire_CE_code
-    app: https://resplab.github.io/hepa_wildfire_CE/
+    app: https://resplab.shinyapps.io/hepa_wildfire_CE/
 
 ---
