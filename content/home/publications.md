@@ -7,7 +7,7 @@ weight: 3
 content_type: 'publications'
 section_settings:
     show_section: true
-    title: 'Recent Publications'
+    title: 'Featured Publications'
     subtitle: 'See my Google Scholar for the full list'    
 ---
 

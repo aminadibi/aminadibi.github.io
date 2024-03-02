@@ -34,6 +34,7 @@ interests:
 - Fairness in ML
 - Clinical Prediction Models
 - Responsible Deployment of AI in Medicine
+- Human Computer Interaction
 - Health Technology Assessment
 profile_picture: profile.jpeg
 socials:
