@@ -5,7 +5,7 @@ draft: false
 headless: true
 news_items:
 - date: "2024-06-28"
-  extra_text: I co-chaired the roundtable on bias and fairness at CHIL 2024.
+  extra_text: I co-chaired a roundtable on bias and fairness at CHIL 2024.
   link: https://chilconference.org/index.html
   text: CHIL 2024
 - date: "2024-02-23"
