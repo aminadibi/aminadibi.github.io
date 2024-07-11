@@ -4,6 +4,10 @@ default_news_icon: file-text
 draft: false
 headless: true
 news_items:
+- date: "2024-06-28"
+  extra_text: I co-chaired the roundtable on bias and fairness at CHIL 2024.
+  link: https://chilconference.org/index.html
+  text: Air filter rebates for people in B.C. with asthma
 - date: "2024-02-23"
   extra_text: Vancouver Coastal Health Research Institute, February 2024.
   link: https://www.vchri.ca/stories/2024/02/23/air-filter-rebates-people-bc-asthma
