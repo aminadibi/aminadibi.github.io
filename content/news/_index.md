@@ -5,7 +5,7 @@ draft: false
 headless: true
 news_items:
 - date: "2024-10-01"
-  extra_text: I joined the organizing committee for the ML4H 2024. 
+  text: I joined the organizing committee for the ML4H 2024. 
   link: https://ahli.cc/ml4h/team/
 - date: "2024-09-01"
   extra_text: Project on Insightful Discourses on Race and Spirometry Through Patient Engagement
