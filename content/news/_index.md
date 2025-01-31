@@ -4,6 +4,10 @@ default_news_icon: file-text
 draft: false
 headless: true
 news_items:
+- date: "2025-01-20"
+  extra_text: January 2025.
+  link: https://www.ersnet.org/science-and-research/ongoing-clinical-research-collaborations/the-global-lung-function-initiative/
+  text: I joined Global Lung Function Initiative (GLI) Advisory Committee
 - date: "2024-12-16"
   extra_text: ML4H Symposium, December 2024.
   link: https://ahli.cc/ml4h/research-roundtables/
