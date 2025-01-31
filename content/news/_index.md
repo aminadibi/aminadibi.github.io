@@ -5,7 +5,7 @@ draft: false
 headless: true
 news_items:
 - date: "2024-12-16"
-  extra_text: Machine Learning for Health Symposium, December 2024.
+  extra_text: ML4H Symposium, December 2024.
   link: https://ahli.cc/ml4h/research-roundtables/
   text: I co-chaired a roundtable on bias and fairness at ML4H 2024 with Leo Celi and Alina Pelluso
 - date: "2024-11-23"
