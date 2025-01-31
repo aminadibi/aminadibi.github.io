@@ -4,11 +4,18 @@ default_news_icon: file-text
 draft: false
 headless: true
 news_items:
+- date: "2024-12-16"
+  extra_text: Machine Learning for Health Symposium, December 2024.
+  link: https://ahli.cc/ml4h/research-roundtables/
+  text: I co-chaired a roundtable on bias and fairness at ML4H 2024 with Leo Celi and Alina Pelluso
+- date: "2024-11-23"
+  text: I was awarded RespNetBC Research Cluster Salary Stipend for 2025.  
+  link: https://www.grad.ubc.ca/research-cluster/respnetbc
 - date: "2024-10-01"
   text: I joined the organizing committee for the ML4H 2024. 
   link: https://ahli.cc/ml4h/team/
 - date: "2024-09-01"
-  extra_text: Project on Insightful Discourses on Race and Spirometry Through Patient Engagement
+  extra_text: Insightful Discourses on Race and Spirometry Through Patient Engagement
   link: https://www.grad.ubc.ca/psi
   text: I was awarded a Public Scholars Fellowship, September 2024. 
 - date: "2024-06-28"
