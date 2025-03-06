@@ -11,6 +11,6 @@ date: "2025-02-10"
 publication: "arXiv"
 
 links:
-    pdf: https://www.atsjournals.org/doi/epdf/10.1164/rccm.202408-1599VP?role=tab
+    pdf: https://arxiv.org/abs/2502.06693
 ---
 
