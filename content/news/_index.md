@@ -4,6 +4,14 @@ default_news_icon: file-text
 draft: false
 headless: true
 news_items:
+- date: "2025-03-03"
+  extra_text: March 2025.
+  link: https://marketing.statnews.com/the-mystery-illness-in-drc-a-major-nih-departure-an-rfk-jr.-proposal?ecid=ACsprvvNtLP6E8OaB6FpnJ4Oqe4eyM8fDsXnnvsaNdBuWzYTD_PTZ_2LXvr92E0Fa6nitDP7KOU2&utm_campaign=morning_rounds&utm_medium=email&_hsenc=p2ANqtz-81sEO85P4CqJrJVrjxp5c9Y1uB0bgsIYMpzBdVzW-5Wn8Om_xUnDkDJJthi3ybdKkmvhZpiZqZQahSadfG7d16MONMdNMf9ShBEeFvXM6CPIDA0to&_hsmi=349761000&utm_content=349761000&utm_source=hs_email
+  text: STAT News covered my recent paper on race neutral lung function testing in their Morning Rounds newsletter
+- date: "2025-03-01"
+  extra_text: March 2025.
+  link: https://www.atsjournals.org/doi/epdf/10.1164/rccm.v211i3x?role=tab
+  text: Featured as an Emerging Investigator in March 2025 issue of the ATS Blue Journal
 - date: "2025-01-20"
   extra_text: January 2025.
   link: https://www.ersnet.org/science-and-research/ongoing-clinical-research-collaborations/the-global-lung-function-initiative/
