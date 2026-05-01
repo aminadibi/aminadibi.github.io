@@ -12,10 +12,6 @@ news_items:
   extra_text: I delivered a guest lecture and a tutorial on training deep neural nets. November 2025
   link: https://vancouver.calendar.ubc.ca/course-descriptions/subject/pharv
   text: PHAR 422 Guest Lecture
-- date: "2025-11-01"
-  extra_text: November 2025
-  link: https://www.atsjournals.org/doi/epdf/10.1164/rccm.v211i11li?role=tab
-  text: Featured as an Emerging Investigator in November 2025 issue of the ATS Blue Journal
 - date: "2025-10-20"
   extra_text: I served as Communications Chair and the Area Chair for Impact and Society track of ML4H 2025
   link: https://ahli.cc/ml4h/
