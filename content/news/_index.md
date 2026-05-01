@@ -8,12 +8,13 @@ news_items:
 - date: "2026-04-16"
   link: https://www.youtube.com/watch?v=0Og7kqTmDy0
   text: Interview with UBC Data Science and Health Research Cluster
+  extra_text: April 2026.
 - date: "2025-11-16"
   extra_text: Watch my tutorial on how various biases creep in during pretraining and post-training of LLMs.
   link: https://www.youtube.com/watch?v=op1bskj3szY
   text: Problems with Large Language Models - An Incomplete Anthology
 - date: "2025-11-16"
-  extra_text: Organized a 1.5-day event with UBC DASH and Dr. Leo Celi that included panels, tutorials, and hands-on collaborative workshops.
+  extra_text: Organized a 1.5-day event with UBC DASH and Dr. Leo Celi that included panels, tutorials, and hands-on collaborative workshops. November 2025.
   link: https://datascienceandhealth.ubc.ca/events/ai-future-medicine-bridging-ai-innovation-and-health-equity
   text: UBC AI & the Future of Medicine
 - date: "2025-11-10"
