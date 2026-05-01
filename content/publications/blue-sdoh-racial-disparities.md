@@ -15,6 +15,5 @@ links:
     text: https://doi.org/10.1164/rccm.202501-0280OC
     pdf: https://www.atsjournals.org/doi/epdf/10.1164/rccm.202501-0280OC?role=tab
     2026 AFPC/AFPC Graduate Student Research Award: https://www.afpc.info/node/67
-    2026 Mitchell‐Dwivedi Graduate Award For Best Paper:
 ---
 
