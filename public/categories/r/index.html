@@ -21,6 +21,20 @@
 
 
     
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA%2fG-123123-12"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA\/G-123123-12');
+        }
+      </script>
 
 </head><body class="container d-flex flex-column min-vh-100">
 
@@ -68,9 +82,17 @@
 </div>
 
 
-    <div>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</div>
+    <div><h1 id="r-markdown">R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">summary</span>(cars)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##      speed           dist       </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##  Min.   : 4.0   Min.   :  2.00  </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##  1st Qu.:12.0   1st Qu.: 26.00  </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##  Median :15.0   Median : 36.00  </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##  Mean   :15.4   Mean   : 42.98  </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##  3rd Qu.:19.0   3rd Qu.: 56.00  </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##  Max.   :25.0   Max. …</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></code></pre></div></div>
 
 
 
@@ -90,7 +112,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
 
 <footer class="mt-auto d-flex justify-content-center text-muted small secondary_font">
-    <span class="text-muted">Copyright (c) 2025, amin adibi,
+    <span class="text-muted">Copyright (c) 2026, amin adibi,
         <a class="text-muted" href="https://github.com/hadisinaee/avicenna" target="_blank"> created by Avicenna
             (MIT)</a>
     </span>
