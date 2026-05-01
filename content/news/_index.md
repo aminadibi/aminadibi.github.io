@@ -18,9 +18,9 @@ news_items:
   link: https://datascienceandhealth.ubc.ca/events/ai-future-medicine-bridging-ai-innovation-and-health-equity
   text: UBC AI & the Future of Medicine
 - date: "2025-11-10"
-  extra_text: I delivered a guest lecture and a tutorial on training deep neural nets. November 2025
+  extra_text: I delivered a guest lecture and a tutorial for on training deep neural nets for PHAR 422 students. November 2025
   link: https://vancouver.calendar.ubc.ca/course-descriptions/subject/pharv
-  text: PHAR 422 Guest Lecture
+  text: "How Machines Learn"
 - date: "2025-10-20"
   extra_text: I served as Communications Chair and the Area Chair for Impact and Society track of ML4H 2025
   link: https://ahli.cc/ml4h/
@@ -36,7 +36,7 @@ news_items:
 - date: "2025-03-19"
   extra_text: I spoke with CBC's Gloria Macarenko on racial bias in lung function testing. March 2025
   link: https://www.cbc.ca/listen/live-radio/1-46-on-the-coast/clip/16135085-racial-bias-asthma-testing-linked-underdiagnosing-black-people
-  text: CBC Radio
+  text: Interview with CBC Radio
 - date: "2025-03-01"
   extra_text: March 2025
   link: https://www.atsjournals.org/doi/epdf/10.1164/rccm.v211i3x?role=tab
