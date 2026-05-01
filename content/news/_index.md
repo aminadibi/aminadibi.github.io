@@ -17,7 +17,7 @@ news_items:
   link: https://www.atsjournals.org/doi/epdf/10.1164/rccm.v211i11li?role=tab
   text: Featured as an Emerging Investigator in November 2025 issue of the ATS Blue Journal
 - date: "2025-10-20"
-  extra_text: I served as Communications Chair and the Area Chair for IMPACT and Society track of ML4H 2025
+  extra_text: I served as Communications Chair and the Area Chair for Impact and Society track of ML4H 2025
   link: https://ahli.cc/ml4h/
   text: ML4H 2025
 - date: "2025-09-20"
