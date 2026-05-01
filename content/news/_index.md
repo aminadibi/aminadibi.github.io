@@ -9,13 +9,13 @@ news_items:
   link: https://www.youtube.com/watch?v=0Og7kqTmDy0
   text: Interview with UBC Data Science and Health Research Cluster
 - date: "2025-11-16"
-  extra_text: Watch the tutorial I delivered on how various biases creep in during pretraining and post-training of LLMs.
+  extra_text: Watch my tutorial on how various biases creep in during pretraining and post-training of LLMs.
   link: https://www.youtube.com/watch?v=op1bskj3szY
   text: Problems with Large Language Models - An Incomplete Anthology
 - date: "2025-11-16"
   extra_text: Organized a 1.5-day event with UBC DASH and Dr. Leo Celi that included panels, tutorials, and hands-on collaborative workshops.
   link: https://datascienceandhealth.ubc.ca/events/ai-future-medicine-bridging-ai-innovation-and-health-equity
-  text: UBC AI & the Future of Medicine 
+  text: UBC AI & the Future of Medicine
 - date: "2025-11-10"
   extra_text: I delivered a guest lecture and a tutorial on training deep neural nets. November 2025
   link: https://vancouver.calendar.ubc.ca/course-descriptions/subject/pharv
