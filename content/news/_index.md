@@ -86,6 +86,6 @@ news_items:
   link: https://globalnews.ca/video/7775879/demand-for-astrazeneca-demand-spikes-in-b-c
   text: Interview on Demand for AstraZeneca vaccine spikes in BC
 num_news: 10
-show_news_icons: true
+show_news_icons: false
 title: news
 ---
