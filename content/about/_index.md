@@ -31,7 +31,7 @@ draft: false
 full_name: amin adibi
 headless: true
 interests:
-- Fairness, Racial Equity, and Algorithmic Harm
+- Fairness and Algorithmic Harm
 - Clinical Prediction Models
 - Responsible Deployment of AI in Medicine
 - Human Computer Interaction
