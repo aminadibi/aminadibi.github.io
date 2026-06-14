@@ -5,32 +5,164 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.pub-year-nav {
+  margin-bottom: 2em;
+  font-size: 0.9em;
+  color: #555;
+}
+.pub-year-nav a {
+  margin-right: 0.6em;
+  color: #555;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+.pub-year-nav a:hover {
+  color: #333;
+  border-bottom-color: #333;
+}
+
+.pub-year-header {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #e0e0e0;
+  color: #333;
+}
+
+.pub-entry {
+  margin-bottom: 1.6em;
+}
+
+.pub-title {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.2em;
+}
+.pub-title a {
+  color: #333;
+  text-decoration: none;
+}
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-authors {
+  font-size: 0.88em;
+  color: #555;
+  margin-bottom: 0.2em;
+}
+.pub-authors strong {
+  color: #222;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pub-meta {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 0.3em;
+}
+.pub-venue {
+  font-style: italic;
+}
+.pub-badge {
+  display: inline-block;
+  font-size: 0.75em;
+  font-style: normal;
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+  font-weight: 500;
+}
+.pub-badge--journal    { background: #e8f0fe; color: #1a56db; }
+.pub-badge--preprint   { background: #fef3e2; color: #b45309; }
+.pub-badge--conference { background: #ecfdf5; color: #065f46; }
+
+.pub-links {
+  font-size: 0.82em;
+  margin-top: 0.3em;
+}
+.pub-link {
+  display: inline-block;
+  margin-right: 0.4em;
+  color: #555;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0px 6px;
+  line-height: 1.6;
+}
+.pub-link:hover {
+  background: #f5f5f5;
+  border-color: #999;
+  color: #222;
+}
+
+.pub-award {
+  font-size: 0.82em;
+  color: #b45309;
+  margin-bottom: 0.2em;
+}
+.pub-award a {
+  color: inherit;
+}
+</style>
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<p style="margin-bottom:1.5em; font-size:0.9em;">
+  Also see my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.
+</p>
 {% endif %}
 
-{% include base_path %}
+{% assign pubs_by_year = site.publications | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% assign pubs_by_year = pubs_by_year | sort: "name" | reverse %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+<nav class="pub-year-nav">
+  {% for group in pubs_by_year %}<a href="#year-{{ group.name }}">{{ group.name }}</a> {% endfor %}
+</nav>
+
+{% for group in pubs_by_year %}
+  <h2 id="year-{{ group.name }}" class="pub-year-header">{{ group.name }}</h2>
+
+  {% assign year_pubs = group.items | sort: "date" | reverse %}
+  {% for post in year_pubs %}
+  <div class="pub-entry">
+
+    <div class="pub-title">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    </div>
+
+    {% if post.authors %}
+    <div class="pub-authors">
+      {{ post.authors | replace: "Amin Adibi", "<strong>Amin Adibi</strong>" }}
+    </div>
+    {% endif %}
+
+    <div class="pub-meta">
+      <span class="pub-venue">{{ post.venue }}</span>
+      {% if post.pub_type %}
+        <span class="pub-badge pub-badge--{{ post.pub_type | downcase }}">{{ post.pub_type }}</span>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+    </div>
+
+    {% if post.award %}
+    <div class="pub-award">
+      🏆 {% if post.awardurl %}<a href="{{ post.awardurl }}">{{ post.award }}</a>{% else %}{{ post.award }}{% endif %}
+    </div>
+    {% endif %}
+
+    <div class="pub-links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}" class="pub-link">PDF</a>{% endif %}
+      {% if post.codeurl %}<a href="{{ post.codeurl }}" class="pub-link">Code</a>{% endif %}
+      {% if post.appurl %}<a href="{{ post.appurl }}" class="pub-link">App</a>{% endif %}
+      {% if post.videourl %}<a href="{{ post.videourl }}" class="pub-link">Video</a>{% endif %}
+    </div>
+
+  </div>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% endfor %}
